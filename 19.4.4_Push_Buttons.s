@@ -22,7 +22,7 @@ PSECT start, class=CODE, reloc=2
     movlw 11101111B
     movwf TRISA, a
     movlw 00100000B
-    movwf TRISJ, a
+    movwf TRISJ, 
     
     loop:
     clrf LATF, a
